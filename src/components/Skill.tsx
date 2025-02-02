@@ -67,7 +67,7 @@ export default function Skill() {
               <img src={nodejs} alt="nodejs" height={50} width={50}/>
             </div>
             {/* tools section */}
-            <div className='w-full'>
+            <div className='w-full mt-4 md:mt-0'>
               <div className="p-2">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
                   <div>

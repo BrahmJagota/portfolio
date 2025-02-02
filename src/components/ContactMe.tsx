@@ -24,7 +24,7 @@ export default function ContactMe() {
     }
   return (
     <div className="min-h-screen w-4/5 mx-auto mt-16">
-      <div className="text-9xl font-extrabold mb-10">
+      <div className="text-6xl lg:text-9xl font-extrabold mb-10">
         <h1>Get in touch</h1>
         <h1>with me</h1>
       </div>

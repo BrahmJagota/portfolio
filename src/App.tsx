@@ -7,8 +7,8 @@ import Projects from "./components/Projects";
 import Skill from "./components/Skill";
 function App() {
   return (
-    <>
-    <div className="relative min-h-screen bg-[#060606] text-white text-center overflow-x-hidden">
+    <div className="max-w-screen overflow-x-hidden">
+    <div className="relative min-h-screen w-screen bg-[#060606] text-white text-center overflow-x-hidden">
     <div className="absolute w-full h-full z-10 ">
         <Squares
           speed={0.5}
@@ -19,7 +19,7 @@ function App() {
         />
       </div>
       <div className="relative flex flex-col justify-center items-center h-screen w-full">
-      <div className="z-21 text-7xl font-bold text-start">
+      <div className="z-21 text-3xl md:text-7xl font-bold text-start">
         <h1>Hi, I'm Brahm</h1>
         <h1>A full stack web developer</h1>
       </div>
@@ -30,7 +30,7 @@ function App() {
       <Projects />
       <ContactMe />
       <Footer />
-    </>
+    </div>
   );
 }
 
