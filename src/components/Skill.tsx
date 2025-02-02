@@ -86,7 +86,7 @@ export default function Skill() {
                   {/* Knowledge Section */}
                   <div>
                     <h2 className="text-2xl font-bold flex items-center gap-2">
-                      <span className="text-xl">💡</span> KNOWLEDGE
+                      <span className="text-xl"><img src={bulb} alt="tick" height={25} width={25} className='mr-1' /></span> KNOWLEDGE
                     </h2>
                     <ul className="mt-4 space-y-2">
                       {knowledge.map((item, index) => (
