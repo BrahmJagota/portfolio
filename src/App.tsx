@@ -5,7 +5,6 @@ import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Skill from "./components/Skill";
-import Skills from "./components/Skills";
 function App() {
   return (
     <>
@@ -28,11 +27,9 @@ function App() {
     </div>
     <About />
     <Skill />
-      {/* <Skills /> */}
       <Projects />
       <ContactMe />
       <Footer />
-{/* <ThreeDModel /> */}
     </>
   );
 }
